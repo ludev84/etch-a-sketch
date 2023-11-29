@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 512px;
+  height: 512px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  background-color: rgb(206, 219, 215);
+  flex: 1 1 auto;
+  padding: 15px;
+  border: solid 1px black;
+}
